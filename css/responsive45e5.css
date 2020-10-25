@@ -1,0 +1,421 @@
+@media (max-width: 1199px) and (orientation: portrait) {
+	#pc {
+		width: 100%;
+		max-width: 750px;
+		margin: 0 auto;
+		background: url(../images/mobile/bg.jpg) center no-repeat;
+    	background-size: 100% 100%;
+	}
+	header {
+		display: none;
+	}
+	.header-menu {
+		width: 95%;
+		margin: 0 auto;
+		padding: 2vw 0;
+		display: flex;
+		justify-content: space-between;
+	}
+	.menu-list {
+		background: url(../images/mobile/nav/bg-menu.png) center no-repeat;
+		background-size: 100% 100%;
+		width: 26vw;
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 98;
+		padding: 15vw 0 3vw;
+	}
+	.header-menu .menu-list li{
+		margin: 1rem 0;
+	}
+	.header-menu .menu-list li:hover >a, 
+	.header-menu .menu-list li.active >a {
+		color: #000;
+		background: url(../images/pc/nav/bg-item-menu-h.png) no-repeat;
+		background-size: 100% 100%;
+	}
+	.header-menu .menu-list li >a {
+		color: #fff;
+		background: url(../images/pc/nav/bg-item-menu.png) no-repeat;
+		background-size: 100% 100%;
+		width: 80%;
+		margin: 0 auto;
+		display: block;
+		padding: .5vw 1vw .8vw;
+		text-align: center;
+		font-size: 2.3vw;
+	}
+	.icon-signin {
+		display: block;
+	}
+	.icon_user{
+		display: none;
+	}
+	.login {
+		top: 4vh;
+		right: 6vw;
+		width: 14vw;
+		max-width: initial;
+	}
+	.close-menu {
+		position: absolute;
+		z-index: 99;
+		right: 8%;
+		top: 3%;
+		width: 3vw;
+	}
+	.black{
+		position: fixed;
+		top: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 100%;
+		height: 100vh;
+		max-width: 750px;
+		background-color: rgba(0, 0, 0, .7);
+		z-index: 96;
+	}
+	/* tab1 */
+	#luckySpin {
+		display: flex;
+		flex-wrap: wrap-reverse;
+		height: auto;
+	}
+	.wrap-character {
+		width: 100%;
+		height: auto;
+	}
+	.char-mobi {
+		display: block;
+	}
+	.char-pc {
+		display: none;
+	}
+	.lucky-spin {
+		left: 0;
+		top: -2vw;
+		position: relative;
+	}
+	#sidebar {
+		top: 8vh;
+		right: 14%;
+		width: 13vw;
+		z-index: 97;
+	}
+	#sidebar .header {
+		padding: 0;
+	}
+
+	#luckySpin .btn-red {
+		position: absolute;
+		bottom: 52vh;
+		left: 50%;
+		transform: rotate(-7deg) translateX(-50%);
+		font-size: 3.5vw;
+		padding: .3vw 2vw 1vw;
+		text-align: center;
+	}
+	.content-tab4,
+	.rules-mobi {
+		display: block;
+	}
+	.text-guide,
+	.rules-pc {
+		display: none;
+	}
+	#rule_and_gift {
+		width: 95%;
+		margin: 0 auto;
+		padding-bottom: 3vw;
+	}
+	.content-table {
+		width: 95%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.table-purple thead th{
+		font-size: 1.5vw;
+	}
+	.table-purple td {
+		font-size: 1.2vw;
+	}
+	.table-reward {
+		width: 100%;
+	}
+	.table-rank {
+		width: 80%;
+		margin-top: 5vw;
+	}
+	.title-table {
+		font-size: 4vw;
+	}
+	.table-container {
+		overflow-y: auto;
+		height: 24vh;
+	}
+	.text-slogan {
+		display: none;
+	}
+	.guide-wrap {
+		position: initial;
+		width: 95%;
+		margin: auto;
+	}
+	.guide-wrap img {
+		transform: rotate(0deg);
+	}
+	.faq-wrap {
+		width: 95%;
+		margin: -4.3vw auto 3vw;
+	}
+	.faq-container {
+		padding: 5vw 1.5vw 3.5vw;
+	}
+	.faq-list,
+	.faq-wrap .title-faq {
+		font-size: 4vw;
+	}
+	.faq-list{
+		margin-top: -2vw;
+		margin-bottom: 2vw;
+	}
+	.qa {
+		font-size: 2vw;
+	}
+	.gift {
+		max-width: 100%;
+		margin: 2vw;
+	}
+	.gift-outgame {
+		height: 30vw;
+	}
+	.style-message.copied::before {
+		width: 25%;
+		font-size: 1vw;
+	}
+	.reward-content {
+		justify-content: center;
+	}
+	.reward-page #sidebar {display: none;}
+}
+@media (max-width: 800px) and (orientation: portrait) {
+	#sidebar {
+		right: 0;
+		width: 19vw;
+	}
+	#luckySpin .btn-red {
+		bottom: 69vh;
+		width: 35%;
+	}
+	.linkToWrap {
+		bottom: 14.5%;
+		width: 100%;
+		transform: translateX(-50%);
+		
+	}
+	.linkToWrap p {
+		font-size: 2.5vw;
+	}
+}
+@media (max-width: 600px)and (orientation: portrait) {
+	.btn-copy {
+		font-size: 2.5vw !important;
+		white-space: nowrap;
+	}
+	.linkToWrap {
+		bottom: 14%;	
+	}
+	.linkToWrap p {
+		font-size: 3.5vw;
+	}
+	.link-rule {
+		font-size: 3vw;
+	}
+	.more-info-intro .other_way_login a {
+		font-size: 2.4vw;
+	}
+	.gift {
+		max-height: 30vw;
+	}
+	.style-message {
+		font-size: .85rem;
+	}
+	.logo {
+		width: 40vw;
+	}
+	.open-menu img {
+		width: 8vw;
+	}
+	.menu-list {
+		width: 35vw;
+		padding: 20vw 0 3vw;
+	}
+	.header-menu .menu-list li >a {
+		font-size: 3vw;
+	}
+
+	#luckySpin .btn-red {
+		bottom: 95vw;
+		font-size: 3.5vw;
+		width: 30%;
+	}
+	.wrap-character {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.faq-container {
+		padding: 9vw 1.5vw 6.5vw;
+	}
+	.faq-list, .faq-wrap .title-faq {
+		font-size: 5vw;
+	}
+	.qa {
+		font-size: 3vw;
+	}
+	.input-custom {
+		margin: 1vw 0; 
+	}
+	.bg-popup-form .modal-body {
+		padding: 1rem;
+	}
+
+	#intro .title-popup {
+		font-size: 3vw;
+		margin-top: 0;
+	}
+	#intro .rule-container {
+		margin: 6vw 0 0;
+	}
+	#rule .title-popup {
+		font-size: 4vw;
+		margin-top: 0;
+	}
+	#rule .rule-container {
+		margin: 4vw 0 0;
+	}
+	.rule-container {
+		margin: 6vw 0 0;
+		height: 46vh;
+	}
+	.login {
+		top: 5vh;
+		right: 7vw;
+		width: 20vw;
+		max-width: initial;
+	}
+	.bg-medium .btn-red, .bg-xs .btn-red, .wrapperSignup .btn-black {
+		padding: 0.3vw 2vw .3vw;
+	}
+	.style-message .input-custom {
+		width: 35vw;
+	}
+	.wrapperSignin .btn-red, .wrapperSignin .btn-black, .other_way_login .btn-black, .other_way_login .btn-blue {
+		font-size: 4.5vw;
+		padding: 0vw 0vw 1.5vw;
+	}
+	.else {
+		margin: -3vw 0;
+	}
+	#signup .title-popup {
+		margin: 3vw auto 0;
+	}
+	#signup form {
+		margin-top: 9vw;
+	}
+	.btn-black,
+	.btn-blue,
+	.btn-red {
+		padding: 0.2vw 2vw 1.5vw;
+		font-size: 3vw;
+	}
+
+	#ingameGift.bg-medium .btn-red{
+		font-size: 3.5vw;
+	}
+	.vongxoay-img a > div {
+		width: 13vh;
+		height: 13vh;
+		left: 51%;
+		top: 51%;
+		z-index: 2;
+	}
+	.table-purple thead th {
+		font-size: 2.5vw;
+	}
+	.table-purple td {
+		font-size: 2.2vw;
+	}
+	#sidebar {
+		width: 18vw;
+	}
+
+	.table-purple tbody td:nth-child(2) {
+		padding: 2vw;
+	}
+	.table-container {
+		overflow-y: auto;
+		height: 64vw;
+	}
+}
+@media (max-width: 380px)and (orientation: portrait) {
+	.style-message .input-custom {
+		width: 30vw;
+	}
+
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) 
+and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+	#pc {
+		min-height: auto;
+	}
+	#luckySpin .wrap-character {
+		display: none;
+	}
+	.lucky-spin {
+		margin: 0 auto;
+		width: 88vh;
+		position: initial;
+	}
+	.guide-wrap {
+		left: 64vh;
+	}
+}
+@media only screen and (device-width: 812px) and (device-height: 375px) 
+and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+	.more-info-intro .other_way_login .btn-red {
+		font-size: 2.5vw;;
+	}
+	.rule-container {
+		height: auto;
+		margin-top: 2vw;
+	}
+	
+	.bg-popup-form .modal-dialog,
+	.bg-history .modal-dialog, .bg-lg .modal-dialog {
+		width: 85vw;
+	}
+	.title-popup {
+		color: #fff;
+		font-size: 2.7vw;
+		margin: 0 auto;
+	}
+}
+@media (max-width: 736px) and (orientation: landscape) {
+	.bg-history .modal-dialog, .bg-lg .modal-dialog {
+		width: 85vw;
+	}
+	.rule-container {
+		height: 85vh;
+	}
+	.title-popup {
+		font-size: 3vw;
+	}
+	.container {
+		max-width: 100%;
+	}
+	.wrapperSignin {
+		margin-top: 4vw;
+	}
+}
