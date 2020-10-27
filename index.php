@@ -128,7 +128,7 @@
         <div class="lucky-spin text-center">
           <meta name="csrf-token" content="AnkmPquzRxlsYp4CLjl6nSfIv9LTNlThFLLAJ9Og">
           <div class="vongxoay-img " id="vongxoaytichdiem">
-            <a  id="nhapmadequay" class="button" data-toggle="modal" data-target="#signin"><img src="dist/btn_quay.png" alt="" style="position: absolute;left: 9%; top: -18%; margin-top: 150%;margin-left: -8%;"></a>
+            <a  id="nhapmadequay" class="button" data-toggle="modal" data-target="#signin"><img class="btn_quay" src="dist/btn_quay.png" alt="" style=""></a>
             <div class="wheel-standard"></div>
             
           </div>

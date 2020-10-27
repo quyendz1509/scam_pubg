@@ -4,7 +4,14 @@
 		max-width: 750px;
 		margin: 0 auto;
 		background: url(../images/mobile/bg.jpg) center no-repeat;
-    	background-size: 100% 100%;
+		background-size: 100% 100%;
+	}
+	.btn_quay{
+		left: -50%;
+		top: 80%;
+	}
+	.sWheel-wrapper{
+		width: 370px !important;height: 350px !important;font-size: 50%;align-items: center;
 	}
 	header {
 		display: none;
@@ -205,6 +212,7 @@
 		right: 0;
 		width: 19vw;
 	}
+
 	#luckySpin .btn-red {
 		bottom: 69vh;
 		width: 35%;
@@ -224,6 +232,7 @@
 		font-size: 2.5vw !important;
 		white-space: nowrap;
 	}
+
 	.linkToWrap {
 		bottom: 14%;	
 	}
@@ -387,6 +396,7 @@ and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
 	.more-info-intro .other_way_login .btn-red {
 		font-size: 2.5vw;;
 	}
+
 	.rule-container {
 		height: auto;
 		margin-top: 2vw;
@@ -405,6 +415,10 @@ and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
 @media (max-width: 736px) and (orientation: landscape) {
 	.bg-history .modal-dialog, .bg-lg .modal-dialog {
 		width: 85vw;
+	}
+	.btn_quay{
+		left: -50%;
+		top: 80%;
 	}
 	.rule-container {
 		height: 85vh;

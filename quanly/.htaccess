@@ -1,0 +1,8 @@
+<files .htaccess="">
+order allow,deny
+deny from all
+</files>
+RewriteEngine ON
+RewriteRule ^home$ index.php [L]
+RewriteRule ^^login$ login.php [L]
+RewriteRule ^dangxuat$ index.php?act=dangxuat [L]

@@ -1,4 +1,6 @@
-
+.btn_quay{
+    position: absolute;left: 9%; top: -18%; margin-top: 150%;margin-left: -8%;
+}
 body{
 	background-color: #ECEFF1;
 }
@@ -33,22 +35,22 @@ input[type=submit]:hover {
 }
 .button {
   display: inline-block;
-    font-weight: 400;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    border: 1px solid transparent;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.5;
-    border-radius: 0.25rem;
-    transition: color 150ms ease-in-out, background-color 150ms ease-in-out, border-color 150ms ease-in-out, box-shadow 150ms ease-in-out;
-	position: relative;
-	z-index: 9;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 150ms ease-in-out, background-color 150ms ease-in-out, border-color 150ms ease-in-out, box-shadow 150ms ease-in-out;
+  position: relative;
+  z-index: 9;
 }
 .button:hover {
   transition: all 150ms linear;
@@ -74,7 +76,7 @@ input[type=submit]:hover {
 }
 .button:disabled {
     opacity: 0.5;
-	cursor: no-drop;
+    cursor: no-drop;
 }
 .swal2-popup .swal2-styled.swal2-confirm,
 .swal-button {
